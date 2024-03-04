@@ -1,0 +1,20 @@
+
+config {
+  type: "table" // Creates a view in BigQuery. Try changing to "table" instead.
+
+}
+-- The rest of a SQLX file contains your SELECT statement used to create the table.
+SELECT unique_key,
+taxi_id,
+trip_start_timestamp,
+trip_end_timestamp,
+trip_seconds,
+trip_miles,
+pickup_census_tract,
+dropoff_census_tract,
+pickup_community_area,
+fare,
+tips,
+tolls
+FROM
+${ref("taxi_trips")}

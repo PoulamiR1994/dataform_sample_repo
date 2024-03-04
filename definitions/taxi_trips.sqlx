@@ -1,0 +1,6 @@
+    config {
+      type: "declaration",
+      database: "poulamirc-poc",
+      schema: "bq_sample_chicago_taxi_trips",
+      name: "taxi_trips",
+    }
