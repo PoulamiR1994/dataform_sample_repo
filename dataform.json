@@ -1,0 +1,8 @@
+{
+  "defaultSchema": "bq_sample_chicago_taxi_trips",
+  "assertionSchema": "bq_sample_chicago_taxi_trips_assertions",
+  "warehouse": "bigquery",
+  "defaultDatabase": "poulamirc-poc",
+  "defaultLocation": "US"
+}
+    
